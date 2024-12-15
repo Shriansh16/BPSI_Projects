@@ -5,7 +5,7 @@ from modal import App, Volume, Image
 app = modal.App("new-ai-companion_llama_3_1")
 volume = Volume.from_name("model-cache", create_if_missing=True)  # Correctly define volume
 image = Image.debian_slim().pip_install("huggingface", "torch", "transformers", "bitsandbytes", "accelerate", "peft", "langchain", "langchain_core","langchain_community")
-secrets = "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"
+secrets = ""
 
 # Constants
 GPU = "A100"
