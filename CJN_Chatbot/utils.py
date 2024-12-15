@@ -40,7 +40,7 @@ def find_match(input):
 def query_refiner(conversation, query):
   #  if not conversation or not query:
    #     return query
-    api_key1 = ""
+    api_key1 = "your api key"
     client = Groq(api_key=api_key1)
     response = client.chat.completions.create(
     model="llama3-8b-8192",
