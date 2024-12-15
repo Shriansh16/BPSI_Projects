@@ -3,7 +3,8 @@ How to run?
 1. Create the virtual environment with Python version    3.10.
 2. Install all the dependencies using the command:
     pip install -r requirements.txt
-3. Open the file "03_testing_finetuned_llm.ipynb" and execute all the cells.
-4. Open “My_Companion.py” file and write your “modal” credentials on line 7 and 8.
-5. Execute "My_Companion.py" using the command:
+3. Open "02_deploying_fine_tuned_llm_on_cloud" and write your huggingface token at line 8. 
+4. Open the file "03_testing_finetuned_llm.ipynb" and execute all the cells.
+5. Open “My_Companion.py” file and write your “modal” credentials on line 7 and 8.
+6. Execute "My_Companion.py" using the command:
      “streamlit run My_Companion.py”
