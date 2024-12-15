@@ -1,0 +1,11 @@
+How to run?
+1. Create a virtual environment using the command 
+"conda create -p venv python==3.10 -y" 
+2. Activate the environment using the command  
+"conda activate venv" 
+4. Install all the dependencies using the command  
+"pip install -r requirements.txt" 
+5. Download the folder from this link "https://drive.google.com/drive/folders/1MsfNoNbplt2O7JKJ_XlZScEPAUzZNHoM?usp=sharing" and put it into your current directory.
+6. Open "app.py" and write your groq api key at line 19.
+7. Execute "app.py" using the command  
+"streamlit run app.py” 
