@@ -43,7 +43,7 @@ def query_refiner(conversation, query):
     api_key1 = ""
     client = Groq(api_key=api_key1)
     response = client.chat.completions.create(
-    model="gemma-7b-it",
+    model="llama3-8b-8192",
      messages=[{"role": "system", "content": "If the user's query is unrelated to the conversation context, return it as is. Otherwise, refine the query in under 20 words."},
               {"role": "user", "content": f"Given the conversation log:\n{conversation}\n\nand the query:\n{query}\n\nDetermine if the query is relevant. If yes, refine it; if not, return it as is. Provide only the refined question, without any additional text."}
     ],
